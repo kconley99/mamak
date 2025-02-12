@@ -1,0 +1,215 @@
+.karla {
+    font-family: "karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-size: 35px;
+    font-style: normal;
+    color: black;
+  }
+
+.karla-H1 {
+    font-family: "karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 50px;
+    font-style: normal;
+    text-align: center;
+    color: pink;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    }
+
+      a:hover {
+        color: pink;
+      }
+      
+      a:active {
+        color: olive;
+      }
+
+li, nav {
+    display:inline;
+    text-align: center;
+    padding: 10px 15px;
+    float: right;
+}
+
+.banner {
+    padding 60px;
+    text-align: center;
+    background-color: rosybrown;
+    font-size: 30px;
+    position: relative;
+    height: 150px;
+}
+
+#logo {
+    height: 150px;
+    width: 150px;
+    float: left;
+    position: relative;
+    left: 100px;
+}
+
+.mission-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background: url(../images/cake-4.jpg) center/cover no-repeat;
+}
+
+.mission-img-text {
+  color: white;
+  font-size: 25px;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: rgba(221, 136, 136, 0.65);
+  text-align: center;
+  border-radius: 60px;
+}
+
+#mission-font {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+main, H1 {
+  background-image: url(../images/coral-background-img.png);
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+  margin: 0;
+}
+
+.karla-H2 {
+  font-family: "karla", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 50px;
+  font-style: normal;
+  text-align: center;
+  color: pink;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.description-page-karla {
+  font-family: "karla", serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-size: 25px;
+  font-style: normal;
+  text-align: center;
+}
+
+.karla-H3, H3 {
+  font-family: "karla", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 25px;
+  font-style: normal;
+  text-align: center;
+  color: #acb09e;
+  text-shadow: 2px 2px 4px rgba(227, 184, 54, 0.5);
+}
+
+.paragraph-font-playfair, p {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  font-size: 17.5px;
+}
+
+img {
+  height: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.image-left, .image-right {
+	margin: auto;
+  padding: 50px;
+  align-items: center;
+}
+
+@media (min-width: 20em) {
+  .image-left, .image-right
+  {
+    display: flex;
+  }
+
+  .image-left img {
+    margin-right: 1em;
+    margin-left: 10em;
+    left: 300px;
+  }
+
+  .image-right img {
+    order: 1;
+    margin-left: 1em;
+    margin-right: 10em;
+    float: right;
+  }
+
+  .image-left::after, .image-right::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+@media (min-width: 30em) {
+  .image-left img, .image-right img {
+    flex-shrink: 0;
+  }
+}
+
+.image-left2, .image-right2 {
+	margin: 1em 0;
+}
+
+@media (min-width: 20em) {
+  .image-left2, .image-right2
+  {
+    display: flex;
+    align-items: center;
+  }
+
+  .image-left2 img {
+    margin-right: 1em;
+    margin-left: 10em;
+    float: left;
+  }
+
+  .image-right2 img {
+    order: 1;
+    margin-left: 1em;
+    margin-right: 10em;
+    float: right;
+  }
+
+  .image-left2::after, .image-right2::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+@media (min-width: 30em) {
+  .image-left2 img, .image-right2 img {
+    flex-shrink: 0;
+  }
+}
+
+#explanation {
+  width: 300px;
+  padding: 100px;
+  margin: auto 20px;
+}
