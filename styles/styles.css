@@ -108,6 +108,7 @@ main, H1 {
   font-size: 25px;
   font-style: normal;
   text-align: center;
+  padding: 60px;
 }
 
 .karla-H3, H3 {
@@ -119,6 +120,7 @@ main, H1 {
   text-align: center;
   color: #acb09e;
   text-shadow: 2px 2px 4px rgba(227, 184, 54, 0.5);
+  padding: 40px;
 }
 
 .paragraph-font-playfair, p {
@@ -129,87 +131,42 @@ main, H1 {
   font-size: 17.5px;
 }
 
-img {
-  height: auto;
-  max-width: 300px;
-  max-height: 300px;
-}
-
-.image-left, .image-right {
-	margin: auto;
-  padding: 50px;
-  align-items: center;
-}
-
-@media (min-width: 20em) {
-  .image-left, .image-right
-  {
-    display: flex;
-  }
-
-  .image-left img {
-    margin-right: 1em;
-    margin-left: 10em;
-    left: 300px;
-  }
-
-  .image-right img {
-    order: 1;
-    margin-left: 1em;
-    margin-right: 10em;
-    float: right;
-  }
-
-  .image-left::after, .image-right::after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-@media (min-width: 30em) {
-  .image-left img, .image-right img {
-    flex-shrink: 0;
-  }
-}
-
-.image-left2, .image-right2 {
-	margin: 1em 0;
-}
-
-@media (min-width: 20em) {
-  .image-left2, .image-right2
-  {
-    display: flex;
-    align-items: center;
-  }
-
-  .image-left2 img {
-    margin-right: 1em;
-    margin-left: 10em;
-    float: left;
-  }
-
-  .image-right2 img {
-    order: 1;
-    margin-left: 1em;
-    margin-right: 10em;
-    float: right;
-  }
-
-  .image-left2::after, .image-right2::after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-@media (min-width: 30em) {
-  .image-left2 img, .image-right2 img {
-    flex-shrink: 0;
-  }
-}
-
 #explanation {
-  width: 300px;
-  padding: 100px;
+  padding: 80px;
   margin: auto 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(221, 136, 136, 0.65);
 }
+
+#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
+  padding: 20px;
+  border-radius: 20%;
+  background-color: rgba(221, 136, 136, 0.65);  
+  border-radius: 60px;
+}
+
+.footer-logo {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  left: 1300px;
+  margin: auto;
+  bottom: 70px;
+}
+
+footer {
+  background-color: rosybrown;
+  height: 175px;
+}
+
+.email, .phone {
+  position: relative;
+  left: 400px;
+  top: 50px;
+  text-shadow: 2px 2px 4px rgba(227, 184, 54, 0.5);
+
