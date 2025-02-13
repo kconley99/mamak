@@ -1,3 +1,7 @@
+.bold {
+  font-weight: 800;
+}
+
 .karla {
     font-family: "karla", serif;
     font-optical-sizing: auto;
@@ -18,6 +22,11 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
   a {
     color: inherit;
     text-decoration: none;
@@ -31,7 +40,7 @@
         color: olive;
       }
 
-li, nav {
+li nav {
     display:inline;
     text-align: center;
     padding: 10px 15px;
@@ -52,7 +61,7 @@ li, nav {
     width: 150px;
     float: left;
     position: relative;
-    left: 100px;
+    left: 200px;
 }
 
 .mission-img {
@@ -80,7 +89,7 @@ li, nav {
   font-style: normal;
 }
 
-main, H1 {
+body {
   background-image: url(../images/coral-background-img.png);
   background-size: cover;
   background-repeat: repeat;
@@ -128,15 +137,18 @@ main, H1 {
   padding: 20px;
 }
 
-.paragraph-font-playfair, p {
+p {
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
   text-align: center;
   font-size: 17.5px;
 }
 
-#explanation {
+.paragraph-font-playfair {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+}
+
+.explanation {
   font-weight: bold;
   margin: auto;
   text-shadow: 2px 2px 4px rgba(221, 136, 136, 0.65);
@@ -160,7 +172,7 @@ main, H1 {
   height: 150px;
   width: 150px;
   position: relative;
-  left: 1300px;
+  left: 1600px;
   margin: auto;
   bottom: 70px;
 }
@@ -216,6 +228,22 @@ td {
   background-color: #acb09ea5;
 }
 
-body {
-  overflow-x: hidden;
+.contact-description {
+  background-color: #d0ab92;
+  color: white;
+  border-radius: 25px;
+  padding: 15px 20px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.contact-info {
+  display: flex;
+  gap: 75px;
+  justify-content: center;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto; 
 }
