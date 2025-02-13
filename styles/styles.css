@@ -16,7 +16,7 @@
     text-align: center;
     color: pink;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-      }
+    }
 
   a {
     color: inherit;
@@ -108,19 +108,24 @@ main, H1 {
   font-size: 25px;
   font-style: normal;
   text-align: center;
-  padding: 60px;
+  padding: 10px 20px;
+  text-shadow: 4px 4px 8px rgba(227, 184, 54, 0.5);
+  background-color: rgba(130, 139, 98, 0.6); 
+  opacity: 85%;
+  text-align: center;
+  border-radius: 60px;
 }
 
 .karla-H3, H3 {
   font-family: "karla", serif;
   font-optical-sizing: auto;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 30px;
   font-style: normal;
   text-align: center;
   color: #acb09e;
   text-shadow: 2px 2px 4px rgba(227, 184, 54, 0.5);
-  padding: 40px;
+  padding: 20px;
 }
 
 .paragraph-font-playfair, p {
@@ -132,10 +137,11 @@ main, H1 {
 }
 
 #explanation {
-  padding: 80px;
-  margin: auto 20px;
   font-weight: bold;
+  margin: auto;
   text-shadow: 2px 2px 4px rgba(221, 136, 136, 0.65);
+  width: 500px;
+  height: 300px;
 }
 
 #center {
@@ -169,4 +175,57 @@ footer {
   left: 400px;
   top: 50px;
   text-shadow: 2px 2px 4px rgba(227, 184, 54, 0.5);
+}
 
+.bakery-img {
+  display: block;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 40%;
+  padding: 20px;
+  border-radius: 20%;
+  background-color: rgba(221, 136, 136, 0.65);  
+  border-radius: 60px;
+}
+
+th, td, table {
+  border: 5px solid rosybrown;
+  text-align: center;
+  width: 30%;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+  font-size: 18px;
+  border-style: outset;
+}
+
+th {
+  background-color: rgba(227, 184, 54, 0.5);
+  font-size: 18px;
+}
+
+td {
+  background-color: #acb09ea5;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.options-box {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
