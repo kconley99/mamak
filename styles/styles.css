@@ -1,3 +1,87 @@
+/* Header as flex container */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Spreads logo and nav */
+  background-color: #d3a478; /* Soft beige background */
+  padding: 15px 20px;
+}
+
+/* Navigation list */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px; /* Space between nav items */
+  padding: 0;
+}
+
+/* Nav items */
+.nav-links li a {
+  text-decoration: none;
+  font-size: 40px;
+  font-family: 'karla', serif; /* Replace with the actual font */
+  color: #593b2b; /* Warm brown color */
+  transition: color 0.3s ease-in-out;
+  list-style: none;
+}
+/* Nav button click design */
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: pink;
+}
+
+nav a:active {
+  color: olive;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* social link click design*/
+div h4 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+div h4 a:hover {
+  color:pink;
+}
+
+div h4 a:active {
+  color: olive;
+}
+
+/* space between call/find us on social */
+.contact-info {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+/* space between contact and social info */
+div h4 {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+/* contact bubble */
+.contact-description {
+  background-color: rosybrown;
+  color: white;
+  border-radius: 25px;
+  padding: 15px 20px;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgb(52, 95, 41); 
+}
+
+/* bold font */
 .bold {
   font-weight: 800;
 }
@@ -22,46 +106,29 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 
-    img {
-      width: 100%;
-      height: 100%;
-    }
-
-  a {
-    color: inherit;
-    text-decoration: none;
-    }
-
-      a:hover {
-        color: pink;
-      }
-      
-      a:active {
-        color: olive;
-      }
-
-li nav {
-    display:inline;
-    text-align: center;
-    padding: 10px 15px;
-    float: right;
+img {
+  width: 100%;
 }
 
-.banner {
-    padding 60px;
-    text-align: center;
-    background-color: rosybrown;
-    font-size: 30px;
-    position: relative;
-    height: 150px;
+/* phone/email/social font/design */
+div h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: #946840;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+  }
+
+  /* header logo */
 #logo {
     height: 150px;
     width: 150px;
     float: left;
     position: relative;
-    left: 200px;
+    left: 100px;
 }
 
 .mission-img {
@@ -143,10 +210,10 @@ p {
   font-size: 17.5px;
 }
 
-.paragraph-font-playfair {
-  font-family: "Playfair Display", serif;
+/* .paragraph-font-playfair {
+  font-optical-sizing: auto;
   font-style: normal;
-}
+} */
 
 .explanation {
   font-weight: bold;
@@ -168,26 +235,33 @@ p {
   border-radius: 60px;
 }
 
+/* footer & logo design */
 .footer-logo {
   height: 150px;
   width: 150px;
   position: relative;
-  left: 1600px;
-  margin: auto;
-  bottom: 70px;
+  float: right;
+  right: 160px;
+  bottom:81px;
 }
 
 footer {
-  background-color: rosybrown;
-  height: 175px;
+  background-color:  #d3a478;
+  height: 160px;
 }
 
 .email, .phone {
   position: relative;
   left: 400px;
   top: 50px;
-  text-shadow: 2px 2px 4px rgba(227, 184, 54, 0.5);
+  text-decoration: none;
+  text-shadow: 0.5px 0.5px 1px olive;
+  font-size: 20px;
+  font-family: 'karla', serif;
+  color: rgba(139, 76, 76, 0.65);
 }
+/* end of footer/ logo design */
+
 
 .bakery-img {
   display: block;
@@ -226,24 +300,4 @@ th {
 
 td {
   background-color: #acb09ea5;
-}
-
-.contact-description {
-  background-color: #d0ab92;
-  color: white;
-  border-radius: 25px;
-  padding: 15px 20px;
-  max-width: 60%;
-  margin: 0 auto;
-}
-
-.contact-info {
-  display: flex;
-  gap: 75px;
-  justify-content: center;
-}
-
-.container {
-  max-width: 80%;
-  margin: 0 auto; 
 }
