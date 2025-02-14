@@ -12,8 +12,8 @@ header {
   list-style: none;
   display: flex;
   gap: 30px; /* Space between nav items */
-  padding: 0;
-}
+  }
+  
 
 /* Nav items */
 .nav-links li a {
@@ -24,6 +24,7 @@ header {
   transition: color 0.3s ease-in-out;
   list-style: none;
 }
+
 /* Nav button click design */
 nav a {
   color: inherit;
@@ -49,6 +50,7 @@ nav a:active {
   max-width: 85%;
 }
 
+/*priniciples container*/
 div h4 {
   max-width: 80%;
   margin: 0 auto;
@@ -103,7 +105,7 @@ div h4 {
       font-family: "karla", serif;
       font-size: 50px;
       text-align: center;
-      padding: 10px 20px;
+      padding: 40px 5px 20px;
       text-shadow: 4px 4px 8px  rgba(221, 136, 136, 0.65);
       color:rosybrown
     }
@@ -120,9 +122,12 @@ div h4 {
       border-radius: 25px;
     }
 
+  div h3 {
+    text-align: center;
+  }
+
 .karla {
     font-family: "karla", serif;
-    font-optical-sizing: auto;
     font-weight: 550;
     font-size: 35px;
     font-style: normal;
@@ -131,7 +136,6 @@ div h4 {
 
 .karla-H1 {
     font-family: "karla", serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-size: 50px;
     font-style: normal;
@@ -141,7 +145,11 @@ div h4 {
     }
 
 img {
-  width: 100%;
+  max-width: 25%;
+  height: 25%;
+  display: inline-block;
+  margin: auto 0;
+  padding: 15px 15px;
 }
 
 /* phone/email/social font/design */
@@ -185,11 +193,11 @@ a {
 
 #mission-font {
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
 }
 
+/* background image (coral)*/
 body {
   background-image: url(../images/coral-background-img.png);
   background-size: cover;
@@ -202,10 +210,8 @@ body {
 
 .karla-H2 {
   font-family: "karla", serif;
-  font-optical-sizing: auto;
   font-weight: bold;
   font-size: 50px;
-  font-style: normal;
   text-align: center;
   color: pink;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -213,11 +219,9 @@ body {
 
 .karla-H3, H3 {
   font-family: "karla", serif;
-  font-optical-sizing: auto;
   font-weight: bold;
   font-size: 30px;
   font-style: normal;
-  text-align: center;
   color: #acb09e;
   text-shadow: 2px 2px 4px rgba(227, 184, 54, 0.5);
   padding: 20px;
@@ -239,31 +243,20 @@ p {
   height: 300px;
 }
 
-#center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  height: 30%;
-  padding: 20px;
-  border-radius: 20%;
-  background-color: rgba(221, 136, 136, 0.65);  
-  border-radius: 60px;
-}
-
 /* footer & logo design */
 .footer-logo {
   height: 150px;
   width: 150px;
   position: relative;
   float: right;
-  right: 160px;
-  bottom:81px;
+  bottom: 56px;
+  right: 150px;
 }
 
 footer {
   background-color:  #d3a478;
   height: 160px;
+  text-align: center;
 }
 
 .email, .phone {
@@ -275,23 +268,13 @@ footer {
   font-size: 20px;
   font-family: 'karla', serif;
   color: rgba(139, 76, 76, 0.65);
+  display: flex;
+  justify-content: center;
 }
 /* end of footer/ logo design */
 
 
-.bakery-img {
-  display: block;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  height: 40%;
-  padding: 20px;
-  border-radius: 20%;
-  background-color: rgba(221, 136, 136, 0.65);  
-  border-radius: 60px;
-}
-
+/*table design*/
 th, td, table {
   border: 5px solid rosybrown;
   text-align: center;
@@ -316,4 +299,12 @@ th {
 
 td {
   background-color: #acb09ea5;
+}
+
+/* end of table design*/
+
+/*to hide blank space to right of page*/
+html, body {
+  overflow-x: hidden;
+  width: 100%;
 }
