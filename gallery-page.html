@@ -6,50 +6,78 @@
     <title>Mama K's Bakery</title>
     <link rel="stylesheet" href="styles/styles.css">
     <!--Nav bar font-->
-    <link class="cinzel" rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
     <header>
-        <div class="banner">
-        <img src="images/mama-logo.png" alt="logo" id="logo">
-        <nav class="cinzel">
-            <ul>
+        <img src="images/mama-logo.png" alt="Mama K's Bakery Logo" id="logo">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bakery-page.html">Bakery</a></li>
+                <li><a href="gallery-page.html">Gallery</a></li>
                 <li><a href="about-page.html">About</a></li>
                 <li><a href="contact-page.html">Contact</a></li>
-                <li><a href="gallery-page.html">Gallery</a></li>
-                <li><a href="bakery-page.html">Bakery</a></li>
-                <li><a href="index.html">Home</a></li>
             </ul>
         </nav>
-        </div>
-</header>
+    </header>
     <main>
-        <h1>Gallery</h1>
-        <p>At Mama K’s Bakery, we're passionate about crafting delectable treats that are as pleasing to the eye as they are to the palate. Our gallery showcases the artistry and love that goes into every item we create. From beautifully decorated cakes to custom cupcakes and seasonal specialties, each photo captures the essence of our dedication to quality and creativity.</p>
-        <!--rows of images-->
-        <div class="image-row">
-            <img src="images/cake-1.jpg" alt="chocolate frosted cake with pink heart." width="100%">
-            <img src="images/cake-2.jpg" alt="chantilly cake topped with blueberries and strawberries." width="100%">
-            <img src="images/cake-3.jpg" alt="strawberry frosted cake with strawberries." width="100%">
-            <img src="images/cake-4.jpg" alt="top of chantilly cake covered in strawberries, blueberries, and raspberries." width="100%">
+        <div>
+            <h1 class="karla-H1">Gallery</h1>
         </div>
-        <!--videos-->
-        <div class="cake-video">
-            <video width="650" height="400" controls>
-                <source src="images/cake-video.mp4" type="video/mp4">
-            </video>
-            <video width="650" height="400" controls>
-                <source src="images/cake-video-2.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+        <div>
+            <p class="pink-box">At Mama K’s Bakery, we're passionate about crafting delectable treats that are as pleasing to the eye as they are to the palate. Our gallery showcases the artistry and love that goes into every item we create. From beautifully decorated cakes to custom cupcakes and seasonal specialties, each photo captures the essence of our dedication to quality and creativity.</p>
+        </div>
+        <!--rows of images-->
+        <div class="gallery-container">
+        <!-- First Row! -->
+            <div class="gallery-row">
+                <div class="gallery-item"><img src="images/cake-1.jpg" alt="chocolate frosted cake with pink heart."></div>
+                <div class="gallery-item"><img src="images/cake-2.jpg" alt="chantilly cake topped with blueberries and strawberries."></div>
+            </div>
+        <!-- Second row!-->
+            <div class="gallery-row">
+                <div class="gallery-item"><img src="images/cake-3.jpg" alt="top of chantilly cake covered in strawberries and blueberries."></div>
+                <div class="gallery-item"><img src="images/cake-4.jpg" alt="top of chantilly cake covered in strawberries, blueberries, and raspberries."></div>
+            </div>
+        <!--Third row!-->
+            <div class="gallery-row">
+                <div class="gallery-item"><img src="images/cake-5.jpg" alt="triple chocolate cake with mini chocolate chips."></div>
+                <div class="gallery-item"><img src="images/cake-6.jpg" alt="a birthday cake with vanilla buttercream frosting and sprinkles."></div>
+            </div>
+        <!-- Fourth row! -->
+            <div class="gallery-row">
+                <div class="gallery-item"><img src="images/treat-7.jpg" alt="a box of assorted christmas treats."></div>
+                <div class="gallery-item"><img src="images/treat-8.jpg" alt="chocolate peppermint bark."></div>
+            </div>
+        <!--Fifth row!  -->
+            <div class="gallery-row">
+                <div class="gallery-item"><img src="images/treat-9.jpg" alt="frosted christmas sugar cookies."></div>
+                <div class="gallery-item"><img src="images/treat-10.jpg" alt="chocolate halloween cupcakes."></div>
+            </div>
+        <!--Sixth row! -- videos-->
+            <div class="gallery-row">
+                <div class="gallery-item"><video width="650" height="400" controls>
+                    <source src="images/cake-video.mp4" type="video/mp4">
+                    </video></div>
+                <div class="gallery-item"><video width="650" height="400" controls>
+                    <source src="images/cake-video-2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video></div>
+            </div>
         </div>
     </main>
     <footer>
-        <p>mamakaybakery@gmail.com</p>
-        <p>727-641-0603</p>
-        <img src="images/mama-logo.png" alt="logo" class="logo">
+        <div>
+            <a href="contact-page.html" target="_blank" class="email bold karla">Mamakaybakery@gmail.com</a>
+            <a href="contact-page.html" target="_blank" class="phone bold karla">727-641-0603</a>
+        </div>
+        <div>
+            <img class="footer-logo" src="images/mama-logo.png" alt="logo">
+        </div>
     </footer>
 </body>
 </html>
