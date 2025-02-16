@@ -5,42 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mama K's Bakery</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <!--Nav bar + H1 font-->
+    <!--Nav bar font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <!--Mission statement font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
-    <!--Banner header and logo-->
     <header>
-        <div class="banner">
-        <img src="images/mama-logo.png" alt="logo" id="logo">
-        <nav class="karla">
-            <ul>
+        <img src="images/mama-logo.png" alt="Mama K's Bakery Logo" id="logo">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bakery-page.html">Bakery</a></li>
+                <li><a href="gallery-page.html">Gallery</a></li>
                 <li><a href="about-page.html">About</a></li>
                 <li><a href="contact-page.html">Contact</a></li>
-                <li><a href="gallery-page.html">Gallery</a></li>
-                <li><a href="bakery-page.html">Bakery</a></li>
-                <li><a href="index.html">Home</a></li>
             </ul>
         </nav>
-        </div>
     </header>
     <main>
         <div>
             <h1 class="karla-H1">Bakery</h1>
         </div>
-        <p class="description-page-karla">Here, you’ll find all of our delicious homemade baked goods, crafted with love and the finest ingredients. From warm, freshly baked bread to sweet, indulgent cakes, every bite is made to bring comfort and joy. Browse our selection below to see our full menu and prices—because nothing beats the taste of home.</p>
-        <h2 class="karla-H2">Baked Goods</h2>
+        <div>
+            <p class="pink-box">Here, you’ll find all of our delicious homemade baked goods, crafted with love and the finest ingredients. From warm, freshly baked bread to sweet, indulgent cakes, every bite is made to bring comfort and joy. Browse our selection below to see our full menu and prices—because <em>nothing beats the taste of home.</em></p>
+            <h2>Baked Goods</h2>
         <!--Banana bread description and prices-->
     <div>
         <h3 class="karla-H3">Banana Bread</h3>
-        <p class="explanation">Savor the comforting and irresistible taste of our freshly baked banana bread. Crafted with ripe, flavorful bananas and top-quality ingredients, each loaf features a moist, tender crumb that melts in your mouth. With a perfectly balanced hint of sweetness, our banana bread is a versatile delight, perfect for any time of the day. Enjoy it as a cozy breakfast, a satisfying midday snack, or a delightful dessert—our banana bread brings warmth and happiness to every bite.</p>
-        <p><strong>Available options: Plain, Chocolate chip, Banana nut.</strong></p>
+        <p>Savor the comforting and irresistible taste of our freshly baked banana bread. Crafted with ripe, flavorful bananas and top-quality ingredients, each loaf features a moist, tender crumb that melts in your mouth. With a perfectly balanced hint of sweetness, our banana bread is a versatile delight, perfect for any time of the day. Enjoy it as a cozy breakfast, a satisfying midday snack, or a delightful dessert—our banana bread brings warmth and happiness to every bite.</p>
+        <p class="bold">Available options: Plain, Chocolate chip, Banana nut.</p>
         <img class="bakery-img" src="images/banana-bread.jpg" alt="loaf of banana bread">
     </div>
     <div>
@@ -99,9 +94,11 @@
         <!--Cookie description and prices-->
     <div>
         <h3>Cookies</h3>
-        <p class="explanation">Treat yourself to the delightful experience of our freshly baked cookies. Made with the finest ingredients and crafted with love, each cookie offers a perfect balance of sweetness and a satisfying crunch. Whether you crave classic chocolate chip, indulgent white chocolate macadamia nut, or a touch of orange with shortbread, our cookies promise to bring joy and comfort to every bite. Perfect for sharing with loved ones or savoring on your own, our cookies are a delightful treat any time of the day.</p>
-        <p><strong class="options-box" >Available options: Chocolate chip, White chocolate macadamia nut, Heath bar, Sugar (frosted or plain), Gingerbread (frosted or plain), Snowballs, M&M, Peanut butter blossom, Vanilla orange shortbread</strong></p>
+        <p>Treat yourself to the delightful experience of our freshly baked cookies. Made with the finest ingredients and crafted with love, each cookie offers a perfect balance of sweetness and a satisfying crunch. Whether you crave classic chocolate chip, indulgent white chocolate macadamia nut, or a touch of orange with shortbread, our cookies promise to bring joy and comfort to every bite. Perfect for sharing with loved ones or savoring on your own, our cookies are a delightful treat any time of the day.</p>
+        <p class="options-box bold" >Available options: Chocolate chip, White chocolate macadamia nut, Heath bar, Sugar (frosted or plain), Gingerbread (frosted or plain), Snowballs, M&M, Peanut butter blossom, Vanilla orange shortbread.</p>
         <img class="bakery-img" src="images/treat-box.jpg" alt="box of assorted baked goods and other treats">
+    </div>
+    <div>
         <table>
             <thead>
                 <tr>
@@ -125,48 +122,101 @@
             </tbody>
         </table>
     </div>
+    </div>
     <!--Cupcake description and prices-->
     <div>
         <h3>Cupcakes</h3>
-        <p class="explanation">Delight in the irresistible charm of our freshly baked cupcakes. Each cupcake is lovingly crafted with the finest ingredients and topped with creamy, decadent frosting. From classic vanilla and rich chocolate to unique, seasonal flavors, our cupcakes offer a perfect balance of sweetness and indulgence. Whether celebrating a special occasion or simply treating yourself, our cupcakes bring a touch of joy and magic to every moment.</p>
-        <p><strong>Available options: Chocolate, Chocolate chip, Vanilla, Red velvet, Strawberry, Carrot, Coconut, Peanut butter</strong></p>
-        <ul>
-            <li>Half dozen $17.99</li>
-            <li>Baker's dozen $30.99</li>
-            <li>Two dozen $53.99</li>
-        </ul>
+        <p>Delight in the irresistible charm of our freshly baked cupcakes. Each cupcake is lovingly crafted with the finest ingredients and topped with creamy, decadent frosting. From classic vanilla and rich chocolate to unique, seasonal flavors, our cupcakes offer a perfect balance of sweetness and indulgence. Whether celebrating a special occasion or simply treating yourself, our cupcakes bring a touch of joy and magic to every moment.</p>
+        <p class="bold">Available options: Chocolate, Chocolate chip, Vanilla, Red velvet, Strawberry, Carrot, Coconut, Peanut butter.</p>
         <img class="bakery-img" src="images/halloween-cupcakes2.jpg" alt="halloween chocolate cupcakes">
+    </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Size</th>
+                    <th scope="col">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Half Dozen</td>
+                    <td>$17.99</td>
+                </tr>
+                <tr>
+                    <td>Baker's Dozen</td>
+                    <td>$30.99</td>
+                </tr>
+                <tr>
+                    <td>Two Dozen</td>
+                    <td>$53.99</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
     <!--Cake description and prices-->
     <div>
         <h3>Cakes</h3>
-        <p class="explanation">Experience the ultimate indulgence with our exquisite cakes. Made with high quality ingredients and decorated to perfection, our cakes are a true celebration of flavor and artistry. Whether you're marking a milestone, celebrating a birthday, or just craving a slice of something special, our cakes come in a variety of flavors and designs to suit any occasion. Each bite promises a delightful blend of moist cake and luscious frosting, creating memories that last a lifetime.</p>
-        <p>
-            <ul>
-                <li>Available sizes: 6in., 8in., 10in., 12in.</li>
-                <li>Available layers: Single, Double</li>
-                <li>Available shapes: Round, Square</li>
-            </ul>
-        </p>
-        <p>
-            <ul>
-                <li>Single layer: $36.99, Double layer: $60.99</li>
-                <li>8in. Single layer: $41.99, Double layer: $71.99</li>
-                <li>10in. Single layer: $62.99, Double layer: $94.99</li>
-                <li>12in. Single layer: $77.99, Double layer: $102.99</li>
-            </ul>
-        </p>
-            <img class="bakery-img" src="images/hbd-chantilly.jpg" alt="colorfull chantilly birthday cake">
+        <p>Experience the ultimate indulgence with our exquisite cakes. Made with high quality ingredients and decorated to perfection, our cakes are a true celebration of flavor and artistry. Whether you're marking a milestone, celebrating a birthday, or just craving a slice of something special, our cakes come in a variety of flavors and designs to suit any occasion. Each bite promises a delightful blend of moist cake and luscious frosting, creating memories that last a lifetime.</p>
+        <img class="bakery-img" src="images/hbd-chantilly.jpg" alt="colorfull chantilly birthday cake">
     </div>
-    </main>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">Type</th>
+                    <th scope="col">Size</th>
+                    <th scope="col">Price</th>
+                </tr>
+            </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2" colspan="3" style="font-weight: bold;">6in.</td>
+                        <td>Single layer</td>
+                        <td>$36.99</td>
+                    </tr>
+                    <tr>
+                        <td>Double layer</td>
+                        <td>$60.99</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" colspan="3" style="font-weight: bold;">8in.</td>
+                        <td>Single layer</td>
+                        <td>$41.99</td>
+                    </tr>
+                    <tr>
+                        <td>Double layer</td>
+                        <td>$71.99</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" colspan="3" style="font-weight: bold;">10in.</td>
+                        <td>Single layer</td>
+                        <td>$62.99</td>
+                    </tr>
+                    <tr>
+                        <td>Double layer</td>
+                        <td>$94.99</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" colspan="3" style="font-weight: bold;">12in.</td>
+                        <td>Single layer</td>
+                        <td>$77.99</td>
+                    </tr>
+                    <tr>
+                        <td>Double layer</td>
+                        <td>$102.99</td>
+                    </tr>
+                </tbody>
+        </table>
+    </div>
+
     <footer>
         <div>
-            <a href="contact-page.html" target="_blank" class="email"><p>Mamakaybakery@gmail.com</p>
-            <a href="contact-page.html" target="_blank"><p class="phone">727-641-0603</p>
+            <a href="contact-page.html" target="_blank" class="email bold karla">Mamakaybakery@gmail.com</a>
+            <a href="contact-page.html" target="_blank" class="phone bold karla">727-641-0603</a>
         </div>
         <div>
             <img class="footer-logo" src="images/mama-logo.png" alt="logo">
-        </div>
         </div>
     </footer>
 </body>
