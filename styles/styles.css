@@ -52,7 +52,7 @@ nav a:active {
 
 /*priniciples container*/
 div h4 {
-  max-width: 80%;
+  max-width: 60%;
   margin: 0 auto;
   text-align: center;
 }
@@ -83,6 +83,7 @@ div h4 {
   display: flex;
   gap: 5px;
   justify-content: center;
+  width: 50%;
 }
 
 /* pink text box */
@@ -139,6 +140,7 @@ div h4 {
       text-shadow: 6px 3px 10px rgb(62, 66, 0);
       border-radius: 25px;
       padding: 15px 20px;
+      margin-bottom: 50px;
   }
 
   div h3 {
@@ -271,26 +273,6 @@ h3 {
   padding: 20px;
 }
 
-/* paragraph design 
-  font-family: "Playfair Display", serif;
-  text-align: center;
-  font-size: 18px;
-}
-  */
-
-  /*
-.explanation {
-  font-weight: bold;
-  margin: auto;
-  text-shadow: 2px 2px 4px rgba(221, 136, 136, 0.65);
-  width: 500px;
-  height: 300px;
-  font-family: "Playfair Display", serif;
-  text-align: center;
-  font-size: 18px;
-}
-  */
-
 /* footer & logo design */
 .footer-logo {
   height: 140px;
@@ -398,8 +380,9 @@ html, body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 80%;
+  height: 80%;
   padding: 10px 5px;
   border-radius: 25px;
-  margin-bottom: 20px;;
+  margin-bottom: 40px;
 }
